@@ -1,0 +1,24 @@
+{
+    "name": "Pendo Tagging Aid",
+    "short_name": "PendoTA",
+    "version": "4.1.2",
+    "manifest_version": 3,
+    "description": "See what ids, classes, and elements are in the DOM. Enhance your feature tagging experience within the Pendo Product Cloud.",
+    "homepage_url": "http://pendo.io",
+    "action": {
+        "default_title": "Pendo Tagging Aid",
+        "default_popup": "popup/popup.html"
+    },
+    "icons": { 
+        "16": "icons/pendo_target_16.png",
+        "48": "icons/pendo_target_48.png",
+       "128": "icons/pendo_target_128.png" },
+    "permissions": ["scripting"],
+    "host_permissions": [
+        "*://*/*"
+      ],
+    "web_accessible_resources": [{
+        "resources": ["/public/*"],
+        "matches": ["<all_urls>"]
+    }]
+}

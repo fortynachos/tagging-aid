@@ -1,0 +1,44 @@
+{
+  "name": "tagging-aid",
+  "version": "4.1.2",
+  "description": "![](https://i.imgur.com/wwzrXUY.png)",
+  "main": "index.js",
+  "dependencies": {
+    "@pendo/agent": "^2.98.1",
+    "@pendo/components": "^3.8.25",
+    "feather-icons": "^4.28.0",
+    "fs": "0.0.1-security",
+    "iframe-resizer": "^4.3.2",
+    "interactjs": "^1.10.11",
+    "jquery": "^3.6.0",
+    "lodash": "^4.17.21",
+    "path": "^0.12.7",
+    "sizzle": "^2.3.6",
+    "umbrellajs": "^3.2.3",
+    "vue": "^2.6.12",
+    "vue-feather-icons": "^5.1.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "chokidar": "^3.5.1",
+    "esbuild": "^0.12.1",
+    "esbuild-vue": "^0.3.1",
+    "esbuild-sass-plugin": "^1.4.8",
+    "rimraf": "^3.0.2",
+    "util": "^0.12.3"
+  },
+  "scripts": {
+    "build": "node esbuild.config.js",
+    "build:watch": "watch=true node esbuild.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pendo-io/tagging-aid.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pendo-io/tagging-aid/issues"
+  },
+  "homepage": "https://github.com/pendo-io/tagging-aid#readme"
+}

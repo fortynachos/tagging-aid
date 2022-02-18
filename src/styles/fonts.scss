@@ -1,0 +1,58 @@
+// ==========================================================================
+// Fonts
+// ==========================================================================
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('https://cdn.pendo.io/fonts/proximanova-light/proximanova-light-webfont.woff2') format('woff2'),
+        url('https://cdn.pendo.io/fonts/proximanova-light/proximanova-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('https://cdn.pendo.io/fonts/proximanova-regular/proximanova-regular-webfont.woff2') format('woff2'),
+        url('https://cdn.pendo.io/fonts/proximanova-regular/proximanova-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('https://cdn.pendo.io/fonts/proximanova-semibold/proximanova-semibold-webfont.woff2') format('woff2'),
+        url('https://cdn.pendo.io/fonts/proximanova-semibold/proximanova-semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima-nova';
+    src: url('https://cdn.pendo.io/fonts/proximanova-bold/proximanova-bold-webfont.woff2') format('woff2'),
+        url('https://cdn.pendo.io/fonts/proximanova-bold/proximanova-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima-nova-condensed';
+    src: url('https://cdn.pendo.io/fonts/proximanova-extrabold/proximanova-extrabold-webfont.woff2') format('woff2'),
+        url('https://cdn.pendo.io/fonts/proximanova-extrabold/proximanova-extrabold-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('~@pendo/components/lib/fonts/FontAwesome.ttf') format('truetype'),
+        url('~@pendo/components/lib/fonts/FontAwesome.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'element-icons';
+    src: url('~@pendo/components/lib/fonts/element-icons.ttf') format('truetype'),
+        url('~@pendo/components/lib/fonts/element-icons.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

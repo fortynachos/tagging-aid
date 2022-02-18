@@ -1,0 +1,177 @@
+// ==========================================================================
+// Training UI Colors
+// ==========================================================================
+
+$transparent: transparent;
+
+// Gray/Grayscale
+$black: #000;
+$gray-darker-3: #292b35;
+$gray-darker-2: #0a0c15;
+$gray-darker-1: #1a1c25;
+$gray-primary: #2a2c35;
+$gray-lighter-1: #3a3c45;
+$gray-lighter-2: #6a6c75;
+$gray-lighter-3: #9a9ca5;
+$gray-lighter-4: #babcc5;
+$gray-lighter-5: #dadce5;
+$gray-lighter-6: #eaecf1;
+$gray-lighter-7: #f4f4f7;
+$gray-lighter-8: #f8f8f9;
+$white: #fff;
+
+$teal-darker-5: #002130;
+$teal-darker-4: #002f40;
+$teal-darker-3: #003f52;
+$teal-darker-2: #005164;
+$teal-darker-1: #016479;
+$teal-primary: #128297;
+$teal-lighter-1: #3290a7;
+$teal-lighter-2: #45a0b8;
+$teal-lighter-3: #5ab7cf;
+$teal-lighter-4: #70cde7;
+$teal-lighter-5: #86e6fa;
+$teal-lighter-6: #a3ffff;
+$teal-lighter-7: #d9fcff;
+
+// (7, not 50) shades of gray
+$gray-primary-fade-25: fade($gray-primary, 25%);
+$gray-primary-fade-50: fade($gray-primary, 50%);
+$gray-primary-fade-90: fade($gray-primary, 90%);
+$gray-lighter-1-fade-80: fade($gray-lighter-1, 80%);
+$gray-lighter-2-fade-35: fade($gray-lighter-2, 35%);
+$gray-lighter-2-fade-50: fade($gray-lighter-2, 50%);
+$gray-lighter-2-fade-60: transparentize($gray-lighter-2, 0.4);
+
+// Pinks
+$pink-darker-3: #79002b;
+$pink-darker-2: #9c0038;
+$pink-darker-1: #bd1746;
+$pink-primary: #ff4876;
+$pink: #ec2059;
+$pink-lighter-1: #ff7e8e;
+$pink-lighter-2: #ffdde6;
+$pink-inactive: #ff8eaa;
+
+// Link + Link Background Colors
+$link-dark: $teal-primary;
+$link-dark-hover: $teal-darker-2;
+$navy-blue: #0b253d;
+
+// Mints
+$green-primary: #00c583;
+$green-success: #00c681;
+$mint-green: #50e3c2;
+$mint-darker-2: #abe7db;
+$mint-darker: #bef1e7;
+$mint-primary: #cbf4ec;
+$mint-lighter-2: #e2fcf7;
+
+// Other Colors
+$red-error: #cc3340;
+$red-error-bg: #fff5f5;
+$starred-only: #ffcf3b;
+
+// Labels / Pages / Features
+$tag-pink-darker: $pink-primary;
+$tag-pink-lighter: #ff7e8e;
+$tag-orange-darker: #ff7107;
+$tag-orange-lighter: #ffb053;
+$tag-green-darker: $green-primary;
+$tag-green-lighter: #03ed9f;
+$tag-blue-darker: #009bd5;
+$tag-blue-lighter: #34c8ff;
+$tag-purple-darker: #8369c1;
+$tag-purple-lighter: #af90f8;
+
+$yellow-lighter: #f2c80f;
+
+// Graph Colors
+$tag-blue-darker-2: #004966;
+$tag-blue-darker-1: #006680;
+$tag-blue-lighter-1: #73d9ff;
+$tag-blue-lighter-2: #9de3ff;
+$tag-green-darker-2: #006644;
+$tag-green-darker-1: #008e5d;
+$tag-green-lighter-1: #00eed3;
+$tag-green-lighter-2: #89f7d4;
+$tag-purple-darker-2: #4a347f;
+$tag-purple-darker-1: #5e4592;
+$tag-purple-lighter-1: #f499ff;
+$tag-purple-lighter-2: #dbc7fe;
+$tag-pink-darker-2: $pink-darker-2;
+$tag-pink-darker-1: $pink-darker-1;
+$tag-pink-lighter-1: #ff7971;
+$tag-pink-lighter-2: #f9c8d4;
+$tag-orange-darker-2: #df670f;
+$tag-orange-darker-1: #f13d07;
+$tag-orange-lighter-1: #ffcf3b;
+$tag-orange-lighter-2: #ffddae;
+$tag-gray-darker-2: $gray-primary;
+$tag-gray-darker-1: $gray-lighter-2;
+$tag-gray-darker: $gray-lighter-3;
+$tag-gray-lighter: $gray-lighter-4;
+$tag-gray-lighter-1: $gray-lighter-5;
+
+// Status Colors
+$statusColorMap: (
+    draft: #53afff,
+    staged: #dba211,
+    public: #00c583,
+    scheduled: #ff7107,
+    disabled: #9a9ca5,
+    archive: $gray-lighter-4
+);
+
+// ==========================================================================
+// Training UI Variables
+// ==========================================================================
+
+// navbar
+$navbar-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+$navbar-background-color: $white;
+$navbar-logo-weight: 900;
+$navbar-logo-color: $gray-primary;
+$navbar-logo-color--hover: $gray-darker-1;
+$navbar-details-color: $gray-lighter-3;
+$navbar-switcher-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.21);
+
+// header
+$page-header-height: 174px;
+
+$page-bg-dark: linear-gradient(126.87deg, rgba(217, 252, 255, 0.207) 5.78%, rgba(217, 252, 255, 0) 85.13%),
+    linear-gradient(241.28deg, #1a1c25 -30.52%, rgba(26, 28, 37, 0) 60.51%), #2c2f3c;
+$page-bg-light: $gray-lighter-8;
+
+// table
+$table-empty-background: #fbfbfc;
+
+$hover-overlay-background: rgba(234, 236, 241, 0.9);
+
+// modals
+$modal-box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.17);
+$modal-backdrop: transparentize($gray-primary, 0.25);
+$modal-border: 1px solid $gray-lighter-5;
+$modal-header-padding: 1rem 1.25rem;
+$modal-header-font-size: 1.375rem;
+$modal-header-font-weight: 700;
+$modal-header-line-height: 1.75rem;
+
+$modal-body-padding: 1.5rem 1rem;
+$modal-body-line-height: 1.4rem;
+$modal-body-font-size: 0.875rem;
+
+$modal-footer-padding: 1rem !default;
+
+// custom tagging aid colors
+$font-gray: #2A2C35;
+$tile-light-blue: #A3FFFF;
+$tile-light-blue-border: #128297;
+$tile-blue: #BDDDFF;
+$tile-blue-border: #07699B;
+$tile-yellow: #FAE4B8;
+$tile-yellow-border: #EFBE53;
+$tile-green: #C7EDDB;
+$tile-green-border: #8DDDB6;
+$tile-purple:  #DAC5F8;
+$tile-purple-border: #A973F2;
